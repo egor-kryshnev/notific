@@ -1,0 +1,25 @@
+{
+  "name": "notific",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd angular-push-notifications && ng build --prod",
+    "nodemon": "nodemon index.js",
+    "start": "npm run build & npm run nodemon" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "mongoose": "^5.9.5",
+    "socket.io": "^2.3.0",
+    "spike-get-token": "^1.1.1",
+    "web-push": "^3.4.3"
+  }
+}
