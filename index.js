@@ -63,6 +63,7 @@ app.post('/sendNotification', (req, res) => {
 });
 
 app.use('/', express.static(__dirname + '/angular-push-notifications/dist/angular-push-notifications'));
+// app.use('/', express.static(__dirname + '/angular-push-notifications/dist/angular-push-notifications/index.html'));
 
 
 // ADDasdasdsadsads
